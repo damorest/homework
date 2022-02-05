@@ -1,0 +1,75 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+}
+section {
+    display: flex;
+    background-color: #c8e8e0;
+}
+.column{
+    flex-direction: column;
+}
+
+.AboutUs-text {
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+}
+.AboutUs-foto {
+    max-width: 767px;
+    background-color: #f1f9f7;
+    width: 50%;
+}
+.AboutUs-foto img {
+    height: 536px;
+    width: 516px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    color: cornsilk;
+    background-color: #2e937a;
+}
+.Qwik-text {
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 20%;
+}
+
+.Wee-text {
+    display: flex;
+}
+
+.block-features {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+}
+.feature {
+    position: relative;
+    width: 194px;
+    min-height: 230px;
+    padding: 5px 10px;
+   padding: 30px;
+}
+.Numb {
+    position: absolute;
+    top: 20px;
+    font-size: 70px;
+    color: #2e937a;
+    opacity: 0.5;
+    left: 5px;
+}
+.main-icon-color {
+    color: #2e937a;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.feature p {
+    line-height: 1.8;
+    font-weight: 300;
+    margin: 20px auto 0 0;
+}
